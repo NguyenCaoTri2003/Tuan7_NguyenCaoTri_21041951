@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/dongho.css">
     
-    <title>Document</title>
+    <title>Đồng hồ bấm giờ đơn giản</title>
 </head>
 <body>
+    <video autoplay muted loop class="myVideo">
+        <source src="/bg.mp4" type="video/mp4">
+      </video>
+    <h1 class="title">Đồng hồ bấm giờ đơn giản</h1>
     <div class="container">
         <h1 class="time">
             <span id="minutes">00</span> :
@@ -16,7 +20,8 @@
             <span id="milliseconds">00</span>
         </h1>
         <div class="btn">
-            <div ><button name="b" id="start">Start</button></div>
+            <div ><button id="start">Start</button></div>
+            <div ><button id="stop">Stop</button></div>
             <button id="reset">Reset</button>
         </div>
     </div>
